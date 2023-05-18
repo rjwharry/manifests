@@ -14,8 +14,8 @@ commonLabels:
   app.kubernetes.io/component: mpijob
 images:
 - name: mpioperator/mpi-operator
-  newName: mpioperator/mpi-operator
-  newTag: latest
+  newName: 192.168.202.201:15001/mpioperator/mpi-operator
+  newTag: 0.3.0
 configMapGenerator:
 - name: mpi-operator-config
   envs:

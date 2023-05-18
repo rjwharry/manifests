@@ -10,3 +10,8 @@ configMapGenerator:
   - name: kfserving-models-web-app-config
     literals:
     - APP_DISABLE_AUTH="True"
+
+images:
+  - name: kfserving/models-web-app
+    newName: 192.168.202.201:15001/kfserving/models-web-app
+    newTag: v0.6.1

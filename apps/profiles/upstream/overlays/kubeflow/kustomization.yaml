@@ -27,5 +27,5 @@ vars:
 
 images:
 - name: public.ecr.aws/j1r0q0g6/notebooks/access-management
-  newName: public.ecr.aws/j1r0q0g6/notebooks/access-management
+  newName: 192.168.202.201:15001/public.ecr.aws/j1r0q0g6/notebooks/access-management
   newTag: v1.4

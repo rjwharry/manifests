@@ -14,3 +14,8 @@ configMapGenerator:
 - name: kubeflow-pipelines-profile-controller-env
   envs:
   - params.env
+
+images:
+  - name: python
+    newName: 192.168.202.201:15001/python
+    newTag: 3.7
