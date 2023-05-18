@@ -4,5 +4,5 @@ resources:
 - ../default
 images:
 - name: public.ecr.aws/j1r0q0g6/notebooks/notebook-controller
-  newName: public.ecr.aws/j1r0q0g6/notebooks/notebook-controller
+  newName: 192.168.202.201:15001/public.ecr.aws/j1r0q0g6/notebooks/notebook-controller
   newTag: v1.4

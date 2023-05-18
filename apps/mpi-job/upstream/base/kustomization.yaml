@@ -37,3 +37,7 @@ vars:
     apiVersion: v1
   fieldref:
     fieldpath: data.lock-namespace
+images:
+- name: mpioperator/mpi-operator
+  newName: 192.168.202.201:15001/mpioperator/mpi-operator
+  newTag: 0.3.0
