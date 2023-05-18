@@ -15,5 +15,5 @@ configMapGenerator:
   name: xgboost-operator-config
 images:
 - name: gcr.io/kubeflow-images-public/xgboost-operator
-  newName: kubeflow/xgboost-operator
+  newName: 192.168.202.201:15001/kubeflow/xgboost-operator
   newTag: v0.2.0

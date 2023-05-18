@@ -51,7 +51,7 @@ spec:
           requests:
             cpu: 10m
             memory: 100Mi
-  hub: docker.io/istio
+  hub: 192.168.202.201:15001/docker.io/istio
   meshConfig:
     accessLogFile: /dev/stdout
     defaultConfig:

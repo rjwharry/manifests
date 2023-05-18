@@ -15,3 +15,8 @@ resources:
 
 patchesStrategicMerge:
   - deployment.yaml
+
+images:
+- name: kubeflow/mxnet-operator
+  newName: 192.168.202.201:15001/kubeflow/mxnet-operator
+  newTag: v1.1.0

@@ -10,5 +10,5 @@ commonLabels:
   kustomize.component: metacontroller
 images:
 - name: metacontroller/metacontroller
-  newName: metacontroller/metacontroller
+  newName: 192.168.202.201:15001/metacontroller/metacontroller
   newTag: v0.3.0
