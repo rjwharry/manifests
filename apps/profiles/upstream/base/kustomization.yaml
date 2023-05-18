@@ -11,7 +11,7 @@ patchesStrategicMerge:
 
 images:
 - name: public.ecr.aws/j1r0q0g6/notebooks/profile-controller
-  newName: public.ecr.aws/j1r0q0g6/notebooks/profile-controller
+  newName: 192.168.202.201:15001/public.ecr.aws/j1r0q0g6/notebooks/profile-controller
   newTag: v1.5.0
 
 configMapGenerator:
