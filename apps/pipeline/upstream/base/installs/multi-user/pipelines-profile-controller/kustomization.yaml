@@ -18,4 +18,4 @@ configMapGenerator:
 images:
 - name: python
   newName: 192.168.202.201:15001/python
-  newTag: 3.7
+  newTag: "3.7"

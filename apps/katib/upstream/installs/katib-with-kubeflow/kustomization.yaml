@@ -18,7 +18,7 @@ images:
     newTag: v0.11.0
   - name: mysql
     newName: 192.168.202.201:15001/mysql
-    newTag: 8
+    newTag: "8"
 
 patchesStrategicMerge:
   - patches/remove-resources-patch.yaml
