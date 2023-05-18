@@ -13,3 +13,10 @@ patchesStrategicMerge:
 - patches/service.yaml
 - patches/remove-pdb.yaml
 - patches/istio-configmap-disable-tracing.yaml
+images:
+- name: docker.io/istio/proxyv2
+  newName: 192.168.202.201:15001/istio/proxyv2
+  newTag: 1.11.4
+- name: docker.io/istio/pilot
+  newName: 192.168.202.201:15001/istio/pilot
+  newTag: 1.11.4

@@ -15,3 +15,7 @@ configMapGenerator:
     namespace: kserve
     literals:
     - APP_DISABLE_AUTH="True"
+images:
+- name: kserve/models-web-app
+  newName: 192.168.202.201:15001/kserve/models-web-app
+  newTag: v0.7.0

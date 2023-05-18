@@ -6,3 +6,7 @@ resources:
 # For KF 1.5 we are including both KFServing and KServe. Thus we install the
 # standalone kserve manifests, to avoid conflicts with 0.6.1 KFServing.
 #- kserve_kubeflow.yaml
+images:
+- name: kserve/kserve-controller
+  newName: 192.168.202.201:15001/kserve/kserve-controller
+  newTag: v0.7.0

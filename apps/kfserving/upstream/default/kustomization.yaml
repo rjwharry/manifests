@@ -69,3 +69,7 @@ vars:
     fieldpath: metadata.namespace
 configurations:
 - params.yaml
+images:
+- name: kfserving/kfserving-controller
+  newName: 192.168.202.201:15001/kfserving/kfserving-controller
+  newTag: v0.6.1
