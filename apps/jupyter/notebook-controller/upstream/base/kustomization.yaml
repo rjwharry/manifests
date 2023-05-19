@@ -4,4 +4,5 @@ resources:
 - ../default
 images:
 - name: docker.io/kubeflownotebookswg/notebook-controller
+  newName: 192.168.202.201:15001/kubeflownotebookswg/notebook-controller
   newTag: v1.6.0

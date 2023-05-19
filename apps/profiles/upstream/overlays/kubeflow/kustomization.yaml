@@ -28,4 +28,5 @@ vars:
 
 images:
 - name: docker.io/kubeflownotebookswg/kfam
+  newName: 192.168.202.201:15001/kubeflownotebookswg/kfam
   newTag: v1.6.0

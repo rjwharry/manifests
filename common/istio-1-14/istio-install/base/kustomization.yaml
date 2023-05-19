@@ -4,3 +4,8 @@ resources:
 - install.yaml
 
 namespace: istio-system
+
+images:
+  - name: docker.io/istio/proxyv2
+    newNamge: 192.168.202.201:15001/istio/proxyv2
+    newTag: 1.14.1

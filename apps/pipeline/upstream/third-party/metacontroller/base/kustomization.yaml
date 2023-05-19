@@ -8,6 +8,10 @@ resources:
 - stateful-set.yaml
 commonLabels:
   kustomize.component: metacontroller
+images:
+  - name: docker.io/metacontrollerio/metacontroller
+    newName: 192.168.202.201:15001/metacontrollerio/metacontroller
+    newTag: v2.0.4
 
 # Update metacontroller CRD:
 # Copy the upstream file to crd.yaml in this folder.

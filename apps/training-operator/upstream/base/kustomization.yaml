@@ -7,3 +7,7 @@ resources:
   - service-account.yaml
   - service.yaml
   - deployment.yaml
+images:
+  - name: kubeflow/training-operator
+    newName: 192.168.202.201:15001/kubeflow/training-operator
+    newTag: v1-e1434f6
